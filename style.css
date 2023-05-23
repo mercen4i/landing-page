@@ -1,0 +1,57 @@
+/* POSITIONING & ALIGNMENT */
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-one {
+    display: flex;
+    flex: 1;
+    padding: 16px 18%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 18%;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 24px;
+}
+
+/* DESIGN */
+
+.header {
+    background-color: #1F2937;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;    
+    color: #F9FAF8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header-link {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E5E7EB;
+}
