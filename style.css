@@ -2,7 +2,6 @@
 
 body {
     height: 100vh;
-    overflow: hidden;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -24,12 +23,11 @@ ul {
 
 .section-one {
     display: flex;
-    flex: 1;
     justify-content: space-between;
     padding: 100px 18%;
 }
 
-.text {
+.section-one .text {
     max-width: 40%;
 }
 
@@ -39,6 +37,35 @@ img {
 
 .secondary-text {
     margin: 10px 0px;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    padding: 48px 18%;
+    padding-bottom: 80px;
+}
+
+.section-two .title {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.content {
+    display:flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.block-one,
+.block-two,
+.block-three,
+.block-four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;  
+    width: 160px;
 }
 
 .footer {
@@ -53,6 +80,8 @@ img {
 }
 
 .footer {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
     color: #F9FAF8;
 }
 
@@ -115,3 +144,26 @@ button:hover {
     border-color: #3882F6;
 }
 
+.section-two {
+    background-color: #F9FAF8;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.block {
+    width: 160px;
+    height: 160px;
+    border: 4px solid #3882F6;
+    border-radius: 16px;
+    margin-bottom: 8px;
+}
+
+.block-text {
+    font-size: 18px;
+    color: #1F2937;
+}
